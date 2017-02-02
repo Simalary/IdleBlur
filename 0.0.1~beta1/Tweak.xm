@@ -33,7 +33,7 @@ static void destroyView(UIWindow *view) {
 
 -(void)animateBacklightToFactor:(float)arg1 duration:(double)arg2 source:(int)source completion:(id)arg4 {
     //blur from bl = 5
-    if(source == 5) {
+    if(source == 5 && arg4 == nil) {
         return;
     }
     %orig;
