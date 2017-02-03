@@ -1,0 +1,9 @@
+Package: com.simalary.idleblur-beta
+Name: IdleBlur-Beta
+Depends: mobilesubstrate
+Version: 0.0.1~beta2
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Chris Harper
+Author: Chris Harper
+Section: Tweaks
